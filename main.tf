@@ -31,11 +31,13 @@ resource "hcp_waypoint_template" "rds" {
     {
       name          = "instance_class"
       user_editable = false
+      variable_type = "string"
       options       = ["db.r6g.large", "db.r6g.xlarge", "db.r6g.2xlarge"]
     },
     {
       name          = "region"
       user_editable = false
+      variable_type = "string"
       options       = ["us-east-1", "us-east-2", "us-west-2", "eu-west-1"]
     },
   ]
