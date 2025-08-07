@@ -14,5 +14,5 @@ variable "TFE_TOKEN" {
 }
 
 variable "TFE_ORG_NAME" {
-  type      = string
+  type = string
 }
