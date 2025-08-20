@@ -24,7 +24,7 @@ resource "hcp_waypoint_template" "aurora-postgresql" {
       variable_type = "string"
     },
     {
-      name          = "db_username"
+      name          = "db_admin"
       user_editable = true
       variable_type = "string"
     },
