@@ -5,7 +5,7 @@ terraform {
     organization = "acfaria-hashicorp"
 
     workspaces {
-      name = "hcp-waypoint-rds-template"
+      name = "hcp-waypoint-aurora-postgresql-template"
     }
   }
 
